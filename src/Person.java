@@ -23,7 +23,6 @@ public class Person implements Payable, Comparable<Person> {
     public void setName(String name) { this.name = name; }
     public void setSurname(String surname) { this.surname = surname; }
 
-    // Should return appropriate position OR "Student"
     public String getPosition() {
         return "Student";
     }
